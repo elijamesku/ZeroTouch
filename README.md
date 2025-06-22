@@ -17,7 +17,7 @@ The goal of this project is to demonstrate how any IT team can automate applicat
 ```
 
 ## Why This Project Exists
-Manual endpoint provisioning is time-consuming, inconsistent, and error-prone.
+Manual endpoint provisioning is time-consuming, inconsistent, and error-prone. (this is from personal experience :D)
 
 ### This project solves that with:
 
@@ -41,8 +41,8 @@ zero-touch-endpoint-setup/
 ├── install.ps1            # Main automation script
 ├── app-list.json          # App metadata (names, URLs, silent switches)
 ├── firewall-rules.ps1     # Security configuration
-├── offboard.ps1           # App uninstall and profile cleanup
-├── logs/                  # Timestamped logs and archives
+├── offboard.ps1           # App uninstall and profile cleanup(Still working on this)
+├── logs/                  # Timestamped logs and archives(Clean)
 └── README.md              # This file
 ```
 
