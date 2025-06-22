@@ -55,10 +55,10 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 - CI/CD with GitHub Actions
 - Localization/multi-language support
 
-### Coding Style
+## Coding 
 PowerShell 5.1+ or 7.x compatible
 
-### To know
+## To know
 - Use PascalCase for function names and camelCase for variables
 
 - Modularize logic in reusable .ps1 files (don’t bloat install.ps1)
@@ -70,7 +70,8 @@ PowerShell 5.1+ or 7.x compatible
 - Use try/catch religiously — this is automation for real systems
 
 ## Commit Guidelines
-Good commit messages help maintain sanity. Suggested format:
+Good commit messages help maintain sanity.  
+Suggested format:  
 
 - feat(logging): add JSON log writer for app installs
 - fix(uninstall): handle missing uninstall string gracefully  
