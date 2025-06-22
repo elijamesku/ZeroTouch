@@ -64,7 +64,7 @@ zero-touch-endpoint-setup/
 
 - Offboarding script to uninstall apps and wipe user profiles
 
-### Application List: `app-list.json`
+## Application List: `app-list.json`
 This JSON file defines all apps to be silently installed. Example:
 
 ```json
@@ -86,7 +86,7 @@ This JSON file defines all apps to be silently installed. Example:
   }
 ]
 ```
-### Main Install Script: `install.ps1`
+## Main Install Script: `install.ps1`
 
 ```powershell
 # Paths
@@ -166,13 +166,13 @@ $survey | ConvertTo-Json | Out-File "$logSessionDir\user-feedback.json"
 Compress-Archive -Path "$logSessionDir\*" -DestinationPath ".\logs\install-$timestamp.zip"
 ```
 
-Security Script: `firewall-rules.ps1`
+## Security Script: `firewall-rules.ps1`
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring $false
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 Add-Content .\logs\setup-log.txt "Security policies applied: Firewall and Defender enabled.`n"
 ```
-Offboarding Script: `offboard.ps1`
+## Offboarding Script: `offboard.ps1`
 ```powershell
 $logFolder = ".\logs"
 $archiveName = "offboarding-logs.zip"
