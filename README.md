@@ -260,8 +260,7 @@ Temporarily bypass script policy if needed
 
 - Cloud-hosted JSON config + Azure log storage
 
-
-   ```                                        
+```                                        
              |  _ \ _____      _____ _ __ ___  __| | | |__  _   _    ___ _   _ _ __(_) ___  ___(_) |_ _   _ 
              | |_) / _ \ \ /\ / / _ \ '__/ _ \/ _` | | '_ \| | | |  / __| | | | '__| |/ _ \/ __| | __| | | |
              |  __/ (_) \ V  V /  __/ | |  __/ (_| | | |_) | |_| | | (__| |_| | |  | | (_) \__ \ | |_| |_| |
@@ -270,5 +269,4 @@ Temporarily bypass script policy if needed
               _____|  _| | | |                                                                              
              |_____| |___| | |                                                                              
                    |_____|_|_|                                                                              
-                                                                                                
 ```
