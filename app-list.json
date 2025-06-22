@@ -1,0 +1,17 @@
+[
+  {
+    "name": "7-Zip",
+    "url": "https://www.7-zip.org/a/7z2301-x64.exe",
+    "silentArgs": "/S"
+  },
+  {
+    "name": "Google Chrome",
+    "url": "https://dl.google.com/chrome/install/375.126/chrome_installer.exe",
+    "silentArgs": "/silent /install"
+  },
+  {
+    "name": "Zoom",
+    "url": "https://zoom.us/client/latest/ZoomInstaller.exe",
+    "silentArgs": "/quiet"
+  }
+]
