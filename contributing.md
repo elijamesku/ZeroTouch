@@ -73,15 +73,15 @@ PowerShell 5.1+ or 7.x compatible
 Good commit messages help maintain sanity. Suggested format:
 
 - feat(logging): add JSON log writer for app installs
-- fix(uninstall): handle missing uninstall string gracefully
-d- ocs(readme): add screenshot for feedback form
+- fix(uninstall): handle missing uninstall string gracefully  
+- docs(readme): add screenshot for feedback form
 
 ## Testing Your Changes
-Always test your script(s) on a fresh VM or snapshot
+- Always test your script(s) on a fresh VM or snapshot
 
-Validate logs, feedback, and uninstall behavior
+- Validate logs, feedback, and uninstall behavior
 
-Don’t break existing functionality (unless you're fixing it)
+- Don’t break existing functionality (unless you're fixing it)
 
 ## Security Notes
 Do NOT submit scripts that:
@@ -106,7 +106,7 @@ Tag it with bug, feature, question, or enhancement
 
 We shall build scripts that are clean, testable, and ready for real-world usage.. not one-off hackjobs. Your contributions should reflect that standard.
 
-Let's build  
+Let's build :D
 
 ```
  __     ______      __   __     ______     __   __   ______     ______        ______     __         ______     ______     ______   ______    
