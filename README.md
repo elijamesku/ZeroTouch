@@ -225,13 +225,31 @@ Write-Host "Offboarding complete. Logs archived as $archiveName"
 `cd "C:\Path\To\zero-touch-endpoint-setup"`  
 
 3. Run the main installer
-`.\install.ps1`  
+`.\install.ps1`
 
-4. (Optional) Apply security settings
+![Screenshot](Images/Screenshot%202025-06-22%20164056.png)  
+
+![ZT Feedback Screenshot](Images/Screenshot%202025-06-22%20164133.png)  
+
+![ZT Ticket Output](Images/Screenshot%202025-06-22%20164342.png)
+
+
+
+5. (Optional) Apply security settings
 `.\firewall-rules.ps1`  
 
-5. (Optional) Run offboarding
+6. (Optional) Run offboarding
 `.\offboard.ps1`
+
+![ZT Offboarding Log Archive](Images/Screenshot%202025-06-22%20164254.png)  
+
+![ZT Offboarding Screenshot](Images/Screenshot%202025-06-22%20164231.png)  
+
+![ZT Archived Logs](Images/Screenshot%202025-06-22%20164326.png)  
+
+![ZT Feedback JSON](Images/Screenshot%202025-06-22%20164354.png)  
+
+
 
 # Tips for First-Time Execution
 
@@ -250,6 +268,9 @@ Temporarily bypass script policy if needed
 - Assign to user or device groups during Autopilot enrollment
 
 - Forward logs to Azure Monitor or Log Analytics
+
+![Screenshot](Images/Screenshot%202025-06-22%20172937.png)  
+
 
 ### Future Posssible Enhancements
 - Version detection and update automation
