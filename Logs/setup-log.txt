@@ -1,0 +1,18 @@
+---- Setup Log - 06/22/2025 16:09:13 ----
+
+7-Zip installed successfully.
+Google Chrome installed successfully.
+Zoom installed successfully.
+All installations complete.
+
+Security policies applied: Firewall and Defender enabled.
+
+Security policies applied: Firewall and Defender enabled.
+
+Security policies applied: Firewall and Defender enabled.
+
+7-Zip uninstalled.
+7-Zip uninstalled.
+Google Chrome uninstalled.
+User profile removed: C:\Users\Apex
+User profile removed: C:\Users\EJames
